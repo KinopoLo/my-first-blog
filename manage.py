@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-#!/usr/bin/env python
-=======
->>>>>>> f647e94195259fc71d0bd6f36977d6d8a7864d1e
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
@@ -13,11 +9,7 @@ def main():
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
-<<<<<<< HEAD
-         raise ImportError(
-=======
         raise ImportError(
->>>>>>> f647e94195259fc71d0bd6f36977d6d8a7864d1e
             "Couldn't import Django. Are you sure it's installed and "
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
